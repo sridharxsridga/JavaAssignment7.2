@@ -14,13 +14,13 @@ public class SubStringExample {
 																// at the specified beginIndex and extends to the
 																// character
 																// at index endIndex - 1.
-		System.out.println("Substring:" + getSubString1);
+		System.out.println("Substring found:" + getSubString1);
 
 		String getSubString2 = stringValue.substring(13);// Alernatively used.Returns a string that is a substring of
 															// this string. The substring begins with the character at
 															// the specified index and extends to the end of this
 															// string.
-		System.out.println("substring :" + getSubString2);
+		System.out.println("substring found :" + getSubString2);
 	}
 
 }
